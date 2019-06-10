@@ -1,0 +1,28 @@
+.hexagon {
+  position: relative;
+  margin: 10px auto;
+  width: 88px;
+  height: 76px;
+  background: #ff0036;
+}
+
+.hexagon:before {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  background: #fff;
+  background-size: cover;
+}
+
+.hexagon,
+.hexagon:before {
+  -webkit-clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+  clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+}
+
+.hexagon:hover:before{
+  background-color: #ff0036;
+}

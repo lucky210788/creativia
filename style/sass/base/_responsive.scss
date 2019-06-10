@@ -1,0 +1,320 @@
+@media (max-width: 1299px) {
+  .container {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .logo-header:before {
+    background-size: 100% 100%;
+    width: 117px;
+    height: 50px;
+    top: -4px;
+  }
+  .logo-header {
+    width: 68px;
+    margin-left: 10px;
+  }
+  .menu-item {
+    padding: 9px 10px;
+    font-size: 15px;
+  }
+  .slider-text {
+    padding: 0 25px;
+  }
+  .section-header {
+    padding-top: 50px;
+  }
+  div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, td, tr, form, fieldset, label, select, input, textarea {
+    font-size: 15px;
+  }
+  .section-subtitle {
+    margin: 20px auto 50px;
+  }
+  .text-accordeon {
+    max-width: 455px;
+  }
+  .accordeon-img {
+    max-width: 455px;
+  }
+  .about-section {
+    padding-bottom: 35px;
+  }
+  .our-advantages-section {
+    padding: 50px 0 30px;
+  }
+  .our-advantages-list li {
+    margin: 0 20px 20px 0;
+    width: calc(25% - 15px);
+  }
+  .filter-name {
+    margin: 25px auto 30px;
+  }
+  .size-img img {
+    height: 240px;
+  }
+  .portfolio-section {
+    padding-bottom: 30px;
+  }
+  .ouer-product-features-section .container {
+    background-size: 282px 331px;
+  }
+  .ouer-product-features-section {
+    padding-bottom: 20px;
+  }
+  .content-us-section .section-subtitle {
+    margin-bottom: 36px;
+  }
+  .footer .img-wrap {
+    width: 80px;
+  }
+  .footer {
+    padding: 10px 0;
+  }
+  .product-description-list {
+    margin-bottom: 190px;
+  }
+}
+
+@media (max-width: 991px) {
+  .section-header {
+    padding-top: 30px;
+  }
+  .our-advantages-title {
+    font-size: 18px;
+    margin: 0 auto 12px;
+  }
+  .our-advantages-list .hexagon {
+    margin: 0 auto 15px;
+  }
+  .text-center {
+    font-size: 14px;
+  }
+  .hexagon {
+    width: 78px;
+    height: 66px;
+  }
+  .section-header h2 {
+    font-size: 25px;
+  }
+  .filter-item {
+    padding: 0 10px;
+    font-size: 13px;
+  }
+  .filter-name {
+    margin: 10px auto 20px;
+  }
+  .size-img img {
+    height: 179px;
+  }
+  .portfolio-item h3 {
+    top: 20px;
+    font-size: 20px;
+  }
+  .portfolio-item p {
+    top: 50px;
+    font-size: 15px;
+  }
+  .portfolio-item button {
+    top: 110px;
+  }
+  .btn-main {
+    font-size: 12px;
+    line-height: 30px;
+    padding: 0 20px;
+  }
+  .bock-buttons .btn-main {
+    line-height: 30px;
+    padding: 0 15px;
+  }
+  .product-description-list .name {
+    font-size: 16px;
+  }
+  .product-description-list .product-item {
+    padding: 6px 5px;
+    width: 313px;
+  }
+  .product-description-list {
+    margin-bottom: 212px;
+  }
+  .services-item-description {
+    padding: 15px;
+  }
+  .menu-item {
+    padding: 9px 10px;
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .container {
+    width: 540px;
+  }
+  .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .text-accordeon {
+    max-width: 540px;
+  }
+  .our-advantages-section {
+    padding: 30px 0;
+  }
+  .our-advantages-list li {
+    margin: 0 15px 15px 0;
+    width: calc(50% - 8px);
+  }
+  .our-advantages-list {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .our-advantages-list li:nth-child(2n+2) {
+    margin-right: 0;
+  }
+  .size-img img {
+    height: 151px;
+  }
+  .product-description-list {
+    margin-bottom: 230px;
+    li {
+      width: 100%;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      margin-bottom: 15px;
+    }
+    li:nth-child(2n+2) {
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      .product-item {
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+      }
+    }
+  }
+  .services-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .services-item {
+    width: 80%;
+    margin: 0 0 20px;
+  }
+  .services-item-img-title {
+    margin-bottom: 15px;
+  }
+  .menu {
+    display: none;
+  }
+  .nav-toggle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .header .container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+  }
+  .slider-text {
+    margin-bottom: 8px;
+    font-size: 12px;
+  }
+  .slider-title {
+    color: #ff0036;
+    font-size: 22px;
+    margin: 0 auto 10px;
+  }
+  .welcome-section {
+    padding-top: 37px;
+  }
+  .footer .img-wrap {
+    width: 65px;
+  }
+  .footer {
+    padding: 4px 0;
+  }
+  .scroll-bar .img-wrap:before {
+    width: 200px;
+  }
+  .scroll-bar {
+    bottom: -10px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .container {
+    width: 100%;
+  }
+  .logo-header {
+    width: 50px;
+    margin-left: 0;
+    margin-right: 15px;
+  }
+  .logo-header:before {
+    width: 88px;
+    height: 39px;
+    top: -8px;
+  }
+  .intro-slider .slick-next {
+    right: 5px;
+  }
+  .intro-slider .slick-prev {
+    left: 5px;
+  }
+  .slider-text {
+    padding: 0 16px;
+  }
+  .intro-slider .slider-main-item img {
+    min-height: 221px;
+  }
+  .form-contact {
+    padding: 20px 10px 10px;
+  }
+  .services-item-img-title .hexagon {
+    margin: 0 10px 0 0;
+  }
+  .service-title {
+    font-size: 15px;
+  }
+  .section-subtitle {
+    margin: 20px auto 30px;
+  }
+  .product-description-list .name {
+    font-size: 12px;
+  }
+  .product-description-list li {
+    margin-bottom: 10px;
+  }
+  .filter-name {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .size-img1,
+  .size-img2 {
+    width: 247px;
+  }
+  .our-advantages-title {
+    font-size: 15px;
+    margin: 0 auto 10px;
+  }
+}

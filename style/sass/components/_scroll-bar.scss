@@ -1,0 +1,32 @@
+.scroll-bar{
+  position: absolute;
+  left: 50%;
+  bottom: -11px;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  .img-wrap{
+    position: relative;
+    width: 21px;
+    &:before{
+      content: '';
+      height: 1px;
+      width: 515px;
+      background-color: #262626;
+      position: absolute;
+      left: 50%;
+      top: 11px;
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+    }
+  }
+}
+
+.color-red{
+  .img-wrap{
+    &:before{
+      background-color: #ff0036;
+    }
+  }
+}

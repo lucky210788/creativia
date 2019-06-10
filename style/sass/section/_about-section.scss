@@ -1,0 +1,122 @@
+.about-section {
+  padding-bottom: 100px;
+  position: relative;
+}
+
+.section-subtitle {
+  margin: 45px auto 100px;
+}
+
+.d-flex{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content{
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.text-accordeon {
+  width: 100%;
+  max-width: 570px;
+  > p {
+    text-align: left;
+    margin-bottom: 40px;
+  }
+}
+
+.accordeon {
+  width: 100%;
+  li {
+    margin-bottom: 10px;
+  }
+  &-description{
+    padding: 10px 15px 15px;
+    border: 1px solid #e7e7e7;
+    border-top: none;
+    display: none;
+  }
+  &-title{
+    border: 1px solid #e7e7e7;
+    background-color: #f7f7f7;
+    cursor: pointer;
+    >p{
+      font-size: 20px;
+      text-align: left;
+      padding-left: 35px;
+      line-height: 42px;
+    }
+  }
+  &-icon{
+    border-right: 1px solid #e7e7e7;
+    padding: 12px 20px;
+  }
+  .active{
+    .accordeon-toggle:after,
+    .accordeon-description{
+      display: inline-block;
+    }
+    .accordeon-toggle{
+      border: 1px solid #ff0036;
+      &:before{
+        background-color: #ff0036;
+      }
+      &:after{
+        display: none;
+      }
+    }
+    .accordeon-title p{
+      color: #ff0036;
+    }
+  }
+}
+
+.accordeon-toggle{
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 1px solid #262626;
+  position: relative;
+  &:before{
+    content: '';
+    height: 2px;
+    width: 10px;
+    background-color: #262626;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  &:after{
+    content: '';
+    height: 10px;
+    width: 2px;
+    background-color: #262626;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+}
+
+.img-wrap{
+  img{
+    width: 100%;
+    height: auto;
+  }
+}
+
+.accordeon-img{
+  width: 80%;
+  max-width: 569px;
+}
